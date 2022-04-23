@@ -46,7 +46,7 @@ namespace wiki_update_companion.Controllers
                 Image = "containrrr/watchtower",
                 Name = "watchtower",
                 Cmd = new List<String>() {
-                    "wiki",
+                    "wikijs_wiki_1",
                     "--cleanup",
                     "--run-once",
                     "--debug"
